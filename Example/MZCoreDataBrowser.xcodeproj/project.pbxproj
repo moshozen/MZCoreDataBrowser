@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40B5DDDE1C38734800EDA152 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDDC1C38734800EDA152 /* Model.xcdatamodeld */; };
 		4E3234F736BDCBC18639B4AB /* Pods_MZCoreDataBrowser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1009A8FCAE2168D31997A658 /* Pods_MZCoreDataBrowser_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -15,7 +16,6 @@
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* MZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* MZAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* MZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* MZViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,6 +41,7 @@
 		1009A8FCAE2168D31997A658 /* Pods_MZCoreDataBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZCoreDataBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3629B5E1FFF23285700D38A7 /* Pods_MZCoreDataBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZCoreDataBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBA47F7FA75465A47831FB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		40B5DDDD1C38734800EDA152 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		538577F9611C4A00177A025D /* Pods-MZCoreDataBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZCoreDataBrowser_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZCoreDataBrowser_Tests/Pods-MZCoreDataBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MZCoreDataBrowser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZCoreDataBrowser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,7 +55,6 @@
 		6003F59D195388D20070C39A /* MZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* MZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* MZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* MZCoreDataBrowser_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZCoreDataBrowser_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MZViewController.h */,
 				6003F5A6195388D20070C39A /* MZViewController.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				40B5DDDC1C38734800EDA152 /* Model.xcdatamodeld */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for MZCoreDataBrowser";
@@ -277,7 +277,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +392,7 @@
 				6003F59E195388D20070C39A /* MZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				40B5DDDE1C38734800EDA152 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,7 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -511,8 +511,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D5FC148E062E586E70F8ACD2 /* Pods-MZCoreDataBrowser_Example.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MZCoreDataBrowser/MZCoreDataBrowser-Prefix.pch";
 				INFOPLIST_FILE = "MZCoreDataBrowser/MZCoreDataBrowser-Info.plist";
@@ -527,8 +525,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9AE424AD3B83E72B4012D19C /* Pods-MZCoreDataBrowser_Example.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MZCoreDataBrowser/MZCoreDataBrowser-Prefix.pch";
 				INFOPLIST_FILE = "MZCoreDataBrowser/MZCoreDataBrowser-Info.plist";
@@ -614,6 +610,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		40B5DDDC1C38734800EDA152 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40B5DDDD1C38734800EDA152 /* Model.xcdatamodel */,
+			);
+			currentVersion = 40B5DDDD1C38734800EDA152 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6003F582195388D10070C39A /* Project object */;
 }

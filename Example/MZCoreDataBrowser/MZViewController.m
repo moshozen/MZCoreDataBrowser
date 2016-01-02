@@ -8,22 +8,32 @@
 
 #import "MZViewController.h"
 
-@interface MZViewController ()
+@import CoreData;
 
-@end
+#import <MZCoreDataBrowser/MZCoreDataBrowserContextTableViewController.h>
 
 @implementation MZViewController
 
-- (void)viewDidLoad
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    if ([segue.identifier isEqualToString:@"showBrowser"]) {
+        MZCoreDataBrowserContextTableViewController *browser = segue.destinationViewController;
+        browser.context = [self managedObjectContext];
+    }
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - Example Nonsense
+
+- (NSManagedObjectContext *)managedObjectContext {
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"Model" withExtension:@"momd"];
+    NSManagedObjectModel *model = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
+
+    NSPersistentStoreCoordinator *coordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:model];
+
+    NSManagedObjectContext *context = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
+    [context setPersistentStoreCoordinator:coordinator];
+
+    return context;
 }
 
 @end
