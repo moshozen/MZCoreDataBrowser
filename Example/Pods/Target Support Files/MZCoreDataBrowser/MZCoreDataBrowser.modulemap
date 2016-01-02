@@ -1,0 +1,6 @@
+framework module MZCoreDataBrowser {
+  umbrella header "MZCoreDataBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

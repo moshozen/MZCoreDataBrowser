@@ -1,0 +1,25 @@
+{
+  "name": "MZCoreDataBrowser",
+  "version": "0.1.0",
+  "summary": "A short description of MZCoreDataBrowser.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MZCoreDataBrowser",
+  "license": "MIT",
+  "authors": {
+    "Mat Trudel": "mat@geeky.net"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MZCoreDataBrowser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "MZCoreDataBrowser": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
