@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A13EE39954FA16F7D3BD1F852BB514EE"
+               BlueprintIdentifier = "F369F5741DCC4C060CC0B984373C6B4B"
                BuildableName = "MZCoreDataBrowser.framework"
                BlueprintName = "MZCoreDataBrowser"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A13EE39954FA16F7D3BD1F852BB514EE"
+            BlueprintIdentifier = "F369F5741DCC4C060CC0B984373C6B4B"
             BuildableName = "MZCoreDataBrowser.framework"
             BlueprintName = "MZCoreDataBrowser"
             ReferencedContainer = "container:Pods.xcodeproj">
