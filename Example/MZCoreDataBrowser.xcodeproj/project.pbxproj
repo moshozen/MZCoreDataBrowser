@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		40B5DDDE1C38734800EDA152 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDDC1C38734800EDA152 /* Model.xcdatamodeld */; };
+		40B5DDEF1C387FE700EDA152 /* Album+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDE31C387FE700EDA152 /* Album+CoreDataProperties.m */; };
+		40B5DDF01C387FE700EDA152 /* Album+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDE31C387FE700EDA152 /* Album+CoreDataProperties.m */; };
+		40B5DDF11C387FE700EDA152 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDE51C387FE700EDA152 /* Album.m */; };
+		40B5DDF21C387FE700EDA152 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDE51C387FE700EDA152 /* Album.m */; };
+		40B5DDF31C387FE700EDA152 /* Artist+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDE71C387FE700EDA152 /* Artist+CoreDataProperties.m */; };
+		40B5DDF41C387FE700EDA152 /* Artist+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDE71C387FE700EDA152 /* Artist+CoreDataProperties.m */; };
+		40B5DDF51C387FE700EDA152 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDE91C387FE700EDA152 /* Artist.m */; };
+		40B5DDF61C387FE700EDA152 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDE91C387FE700EDA152 /* Artist.m */; };
+		40B5DDF71C387FE700EDA152 /* Song+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDEB1C387FE700EDA152 /* Song+CoreDataProperties.m */; };
+		40B5DDF81C387FE700EDA152 /* Song+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDEB1C387FE700EDA152 /* Song+CoreDataProperties.m */; };
+		40B5DDF91C387FE700EDA152 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDED1C387FE700EDA152 /* Song.m */; };
+		40B5DDFA1C387FE700EDA152 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DDED1C387FE700EDA152 /* Song.m */; };
 		4E3234F736BDCBC18639B4AB /* Pods_MZCoreDataBrowser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1009A8FCAE2168D31997A658 /* Pods_MZCoreDataBrowser_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -42,6 +54,18 @@
 		3629B5E1FFF23285700D38A7 /* Pods_MZCoreDataBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZCoreDataBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBA47F7FA75465A47831FB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		40B5DDDD1C38734800EDA152 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		40B5DDE21C387FE700EDA152 /* Album+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Album+CoreDataProperties.h"; sourceTree = "<group>"; };
+		40B5DDE31C387FE700EDA152 /* Album+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Album+CoreDataProperties.m"; sourceTree = "<group>"; };
+		40B5DDE41C387FE700EDA152 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		40B5DDE51C387FE700EDA152 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		40B5DDE61C387FE700EDA152 /* Artist+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Artist+CoreDataProperties.h"; sourceTree = "<group>"; };
+		40B5DDE71C387FE700EDA152 /* Artist+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Artist+CoreDataProperties.m"; sourceTree = "<group>"; };
+		40B5DDE81C387FE700EDA152 /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		40B5DDE91C387FE700EDA152 /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		40B5DDEA1C387FE700EDA152 /* Song+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Song+CoreDataProperties.h"; sourceTree = "<group>"; };
+		40B5DDEB1C387FE700EDA152 /* Song+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Song+CoreDataProperties.m"; sourceTree = "<group>"; };
+		40B5DDEC1C387FE700EDA152 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		40B5DDED1C387FE700EDA152 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
 		538577F9611C4A00177A025D /* Pods-MZCoreDataBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZCoreDataBrowser_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZCoreDataBrowser_Tests/Pods-MZCoreDataBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MZCoreDataBrowser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZCoreDataBrowser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +117,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40B5DDEE1C387FE700EDA152 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				40B5DDE21C387FE700EDA152 /* Album+CoreDataProperties.h */,
+				40B5DDE31C387FE700EDA152 /* Album+CoreDataProperties.m */,
+				40B5DDE41C387FE700EDA152 /* Album.h */,
+				40B5DDE51C387FE700EDA152 /* Album.m */,
+				40B5DDE61C387FE700EDA152 /* Artist+CoreDataProperties.h */,
+				40B5DDE71C387FE700EDA152 /* Artist+CoreDataProperties.m */,
+				40B5DDE81C387FE700EDA152 /* Artist.h */,
+				40B5DDE91C387FE700EDA152 /* Artist.m */,
+				40B5DDEA1C387FE700EDA152 /* Song+CoreDataProperties.h */,
+				40B5DDEB1C387FE700EDA152 /* Song+CoreDataProperties.m */,
+				40B5DDEC1C387FE700EDA152 /* Song.h */,
+				40B5DDED1C387FE700EDA152 /* Song.m */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +180,7 @@
 				6003F5A5195388D20070C39A /* MZViewController.h */,
 				6003F5A6195388D20070C39A /* MZViewController.m */,
 				40B5DDDC1C38734800EDA152 /* Model.xcdatamodeld */,
+				40B5DDEE1C387FE700EDA152 /* Models */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for MZCoreDataBrowser";
@@ -389,10 +434,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B5DDF91C387FE700EDA152 /* Song.m in Sources */,
 				6003F59E195388D20070C39A /* MZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MZViewController.m in Sources */,
+				40B5DDF51C387FE700EDA152 /* Artist.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				40B5DDF11C387FE700EDA152 /* Album.m in Sources */,
+				40B5DDF31C387FE700EDA152 /* Artist+CoreDataProperties.m in Sources */,
+				40B5DDF71C387FE700EDA152 /* Song+CoreDataProperties.m in Sources */,
 				40B5DDDE1C38734800EDA152 /* Model.xcdatamodeld in Sources */,
+				40B5DDEF1C387FE700EDA152 /* Album+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +451,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B5DDFA1C387FE700EDA152 /* Song.m in Sources */,
+				40B5DDF81C387FE700EDA152 /* Song+CoreDataProperties.m in Sources */,
+				40B5DDF41C387FE700EDA152 /* Artist+CoreDataProperties.m in Sources */,
+				40B5DDF21C387FE700EDA152 /* Album.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				40B5DDF01C387FE700EDA152 /* Album+CoreDataProperties.m in Sources */,
+				40B5DDF61C387FE700EDA152 /* Artist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
