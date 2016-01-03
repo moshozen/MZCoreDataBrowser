@@ -40,7 +40,7 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    return [self entities][section].name;
+    return [NSString stringWithFormat:@"%@ Instance(s)", [self entities][section].name];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
