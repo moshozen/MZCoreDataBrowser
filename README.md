@@ -1,6 +1,6 @@
 # MZCoreDataBrowser
 
-[![CI Status](http://img.shields.io/travis/Mat Trudel/MZCoreDataBrowser.svg?style=flat)](https://travis-ci.org/Mat Trudel/MZCoreDataBrowser)
+[![CI Status](http://img.shields.io/travis/Mat Trudel/MZCoreDataBrowser.svg?style=flat)](https://travis-ci.org/moshozen/MZCoreDataBrowser)
 [![Version](https://img.shields.io/cocoapods/v/MZCoreDataBrowser.svg?style=flat)](http://cocoapods.org/pods/MZCoreDataBrowser)
 [![License](https://img.shields.io/cocoapods/l/MZCoreDataBrowser.svg?style=flat)](http://cocoapods.org/pods/MZCoreDataBrowser)
 [![Platform](https://img.shields.io/cocoapods/p/MZCoreDataBrowser.svg?style=flat)](http://cocoapods.org/pods/MZCoreDataBrowser)
