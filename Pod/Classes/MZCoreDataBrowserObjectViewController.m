@@ -19,11 +19,7 @@
 {
     if (self = [super initWithStyle:UITableViewStyleGrouped]) {
         self.object = object;
-        if (self.object.hasChanges) {
-            self.title = [NSString stringWithFormat:@"%@*", self.object.description];
-        } else {
-            self.title = self.object.description;
-        }
+        self.title = self.object.description;
     }
     return self;
 }
@@ -52,7 +48,11 @@
         if (!cell) {
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:@"attributeCell"];
         }
-        cell.textLabel.text = self.attributeNames[indexPath.row];
+        if (self.object.changedValues[self.attributeNames[indexPath.row]]) {
+            cell.textLabel.text = [NSString stringWithFormat:@"%@*", self.attributeNames[indexPath.row]];
+        } else {
+            cell.textLabel.text = self.attributeNames[indexPath.row];
+        }
         id object = [self.object valueForKey:self.attributeNames[indexPath.row]];
         if ([object isKindOfClass:[NSArray class]]) {
             cell.detailTextLabel.text = [object componentsJoinedByString:@", "];
@@ -76,7 +76,11 @@
     if (section == 0) {
         return @"Attributes";
     } else {
-        return self.relationshipNames[section - 1];
+        if (self.object.changedValues[self.relationshipNames[section - 1]]) {
+            return [NSString stringWithFormat:@"%@*", self.relationshipNames[section - 1]];
+        } else {
+            return self.relationshipNames[section - 1];
+        }
     }
 }
 
