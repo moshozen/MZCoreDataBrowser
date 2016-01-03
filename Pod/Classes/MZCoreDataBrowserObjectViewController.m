@@ -19,7 +19,11 @@
 {
     if (self = [super initWithStyle:UITableViewStyleGrouped]) {
         self.object = object;
-        self.title = self.object.description;
+        if (self.object.hasChanges) {
+            self.title = [NSString stringWithFormat:@"%@*", self.object.description];
+        } else {
+            self.title = self.object.description;
+        }
     }
     return self;
 }
