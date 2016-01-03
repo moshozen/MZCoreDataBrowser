@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		254174C3A47C337CBA8EA528CB586D50 /* MZCoreDataBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A1335EE1B4D2F4969B53FBD3EC92AA /* MZCoreDataBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B091BDC1ED79B468F84F1FE11169FF3 /* MZCoreDataBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E25C2A971381E03DAFC4FFAD38FE89A /* MZCoreDataBrowserViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27E02E193FA9812186580C2A1CB0CC83 /* Pods-MZCoreDataBrowser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CBA7FE3CAB2EB4DA9A46DBA4DDD3354 /* Pods-MZCoreDataBrowser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CE0D543C4FAE3BBACC19F2B738276A4 /* MZCoreDataBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F169DCB5687E3ACCA7975DF94D73B505 /* MZCoreDataBrowser-dummy.m */; };
+		58123ACA32245676F9BED1BEDF950074 /* MZCoreDataBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A1335EE1B4D2F4969B53FBD3EC92AA /* MZCoreDataBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CC1DBA323B2FF7364778ECC4F48F60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		620C064D21C2998B866127B35CAF8D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		65CDB3E61AA11999CBAD8BB7C89CF4E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		70A6BD03DD231DF2FA25C51B44007115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		692F94A2E1A6A65CCC446EFE5E2E790A /* MZCoreDataBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296C406F843C1AF7A0473C3ED99D0B17 /* MZCoreDataBrowserViewController.m */; };
 		71D93612F64621CC7B351D0F5D7D948E /* Pods-MZCoreDataBrowser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4C64F114820FCADF55392AD402D9E8 /* Pods-MZCoreDataBrowser_Tests-dummy.m */; };
+		762F178EDEA281A4E3285A1C9CE75045 /* MZCoreDataBrowserObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B559508F469007EC5679469A84730EE8 /* MZCoreDataBrowserObjectViewController.m */; };
 		8162094926D0A7ED265E47A8FA925BB0 /* Pods-MZCoreDataBrowser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA176BA6235CB2C907A43E5E6EDA24B /* Pods-MZCoreDataBrowser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C7AF81CCF96D980B0117D6AE98679C6 /* MZCoreDataBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F169DCB5687E3ACCA7975DF94D73B505 /* MZCoreDataBrowser-dummy.m */; };
 		A819CB9AC76BDBE378F8FC53F8FB98FF /* Pods-MZCoreDataBrowser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF598529CEB44275D3908641FEBED396 /* Pods-MZCoreDataBrowser_Example-dummy.m */; };
-		A9613DE8C7A0660998743EA8C929143E /* MZCoreDataBrowserObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B559508F469007EC5679469A84730EE8 /* MZCoreDataBrowserObjectViewController.m */; };
-		B5E844D6DD1A0EC35F05012298FDB718 /* MZCoreDataBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E938B43802D60B245AA685B61DC4841F /* MZCoreDataBrowser.bundle */; };
-		BAAD15B9F7B35EFADD23D3D020A2DD5A /* MZCoreDataBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296C406F843C1AF7A0473C3ED99D0B17 /* MZCoreDataBrowserViewController.m */; };
-		BF578DAA33E45C9E9F0E26C7B8576041 /* MZCoreDataBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E25C2A971381E03DAFC4FFAD38FE89A /* MZCoreDataBrowserViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9F9F65B52A14305F4B6DAD6A47CCF81 /* MZCoreDataBrowserObjectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE818E17F7C7F6A42203CBADED061841 /* MZCoreDataBrowserObjectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D61DF8C006ECA98A95C7DD11D2C27B9E /* MZCoreDataBrowserObjectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE818E17F7C7F6A42203CBADED061841 /* MZCoreDataBrowserObjectViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,30 +27,23 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F369F5741DCC4C060CC0B984373C6B4B;
+			remoteGlobalIDString = E8EA8EC757CD8EB764D360F7299A1F44;
 			remoteInfo = MZCoreDataBrowser;
 		};
 		80090D29D7AD19820EBED16198E46F05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F369F5741DCC4C060CC0B984373C6B4B;
+			remoteGlobalIDString = E8EA8EC757CD8EB764D360F7299A1F44;
 			remoteInfo = MZCoreDataBrowser;
-		};
-		86944071345B6BC0654134F71B703CE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 09EB5CEAE1AADC8BB34292FAC6BDF41F;
-			remoteInfo = "MZCoreDataBrowser-MZCoreDataBrowser";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0F212AD089184C9A286D33F69A4D5AC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F9171AA93AAEC8F31FB8B828494D26B /* Pods-MZCoreDataBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZCoreDataBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		129C2CBDB6B6657F9CD44243FFEF0833 /* Pods_MZCoreDataBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZCoreDataBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D5294BCA43568D84AEE20C6412701E /* Pods-MZCoreDataBrowser_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZCoreDataBrowser_Example-resources.sh"; sourceTree = "<group>"; };
-		1CB48A65387810AC7D37A8C08FCFD827 /* Pods_MZCoreDataBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZCoreDataBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C66FBB6F42139B44AED04904C3309A /* Pods-MZCoreDataBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZCoreDataBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		22CC720FD90B1DACFC3CF38CACA301B4 /* Pods-MZCoreDataBrowser_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZCoreDataBrowser_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		296C406F843C1AF7A0473C3ED99D0B17 /* MZCoreDataBrowserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MZCoreDataBrowserViewController.m; sourceTree = "<group>"; };
@@ -66,11 +58,11 @@
 		66A1335EE1B4D2F4969B53FBD3EC92AA /* MZCoreDataBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZCoreDataBrowser-umbrella.h"; sourceTree = "<group>"; };
 		7A5BF171686F18914B55345597C7D9E9 /* MZCoreDataBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZCoreDataBrowser.xcconfig; sourceTree = "<group>"; };
 		833D90C408A2B7DB8FF8CD02534ED869 /* Pods-MZCoreDataBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZCoreDataBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		88DA1FDC406C0ABA39CFDB7DE92643B6 /* MZCoreDataBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZCoreDataBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF5B114FEA728B03200707666B64B63 /* Pods-MZCoreDataBrowser_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZCoreDataBrowser_Tests-resources.sh"; sourceTree = "<group>"; };
 		A5E63096A6F4884BDF4122EE3510B342 /* Pods-MZCoreDataBrowser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZCoreDataBrowser_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A7F5E3762C4EB601CAA0CB7D16A7ED96 /* MZCoreDataBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MZCoreDataBrowser.modulemap; sourceTree = "<group>"; };
 		AC2A5293378A23B59F1B925DA8E192DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACF04075D8DD2761114148C2A88E34C6 /* Pods_MZCoreDataBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZCoreDataBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4C64F114820FCADF55392AD402D9E8 /* Pods-MZCoreDataBrowser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZCoreDataBrowser_Tests-dummy.m"; sourceTree = "<group>"; };
 		B559508F469007EC5679469A84730EE8 /* MZCoreDataBrowserObjectViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MZCoreDataBrowserObjectViewController.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -81,9 +73,8 @@
 		DF04F3565ABABBAE0EFFE82EEB01B729 /* Pods-MZCoreDataBrowser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZCoreDataBrowser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DF598529CEB44275D3908641FEBED396 /* Pods-MZCoreDataBrowser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZCoreDataBrowser_Example-dummy.m"; sourceTree = "<group>"; };
 		E6D23640C83547DF7F03F77A7F4684DE /* Pods-MZCoreDataBrowser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZCoreDataBrowser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E7E870DA35A80E90DF92E66591844627 /* MZCoreDataBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZCoreDataBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E938B43802D60B245AA685B61DC4841F /* MZCoreDataBrowser.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZCoreDataBrowser.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F169DCB5687E3ACCA7975DF94D73B505 /* MZCoreDataBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZCoreDataBrowser-dummy.m"; sourceTree = "<group>"; };
+		F6A32A4050FB91D5D64C419C69293675 /* Pods_MZCoreDataBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZCoreDataBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,14 +86,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62E689DC9B41034695B26E23DB803C1F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70A6BD03DD231DF2FA25C51B44007115 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		93F33F525AE4E33B623A3852E9B3380D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,10 +94,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E62CAEA1061F70FC788BF849B5B9231 /* Frameworks */ = {
+		B84DBEEC790601B33B771CF83C4A2E39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC1DBA323B2FF7364778ECC4F48F60E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,17 +121,6 @@
 			);
 			name = "Pods-MZCoreDataBrowser_Example";
 			path = "Target Support Files/Pods-MZCoreDataBrowser_Example";
-			sourceTree = "<group>";
-		};
-		36F36EA050F4406163E3CDE1444E802E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E938B43802D60B245AA685B61DC4841F /* MZCoreDataBrowser.bundle */,
-				E7E870DA35A80E90DF92E66591844627 /* MZCoreDataBrowser.framework */,
-				1CB48A65387810AC7D37A8C08FCFD827 /* Pods_MZCoreDataBrowser_Example.framework */,
-				ACF04075D8DD2761114148C2A88E34C6 /* Pods_MZCoreDataBrowser_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4035E2A2283559B03C6FA365C45ADF9F /* Targets Support Files */ = {
@@ -183,9 +156,19 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				C605EAC39FDBD88C633E6D93D5BEDDA4 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				36F36EA050F4406163E3CDE1444E802E /* Products */,
+				94686978D32C8F4D86C7E54FE87AE215 /* Products */,
 				4035E2A2283559B03C6FA365C45ADF9F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		94686978D32C8F4D86C7E54FE87AE215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88DA1FDC406C0ABA39CFDB7DE92643B6 /* MZCoreDataBrowser.framework */,
+				F6A32A4050FB91D5D64C419C69293675 /* Pods_MZCoreDataBrowser_Example.framework */,
+				129C2CBDB6B6657F9CD44243FFEF0833 /* Pods_MZCoreDataBrowser_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		95BD5B4187513ACA042D9736F805FE01 /* Pods-MZCoreDataBrowser_Tests */ = {
@@ -258,16 +241,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B952C4C6EBD11B858E9CEEF1910085CD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				254174C3A47C337CBA8EA528CB586D50 /* MZCoreDataBrowser-umbrella.h in Headers */,
-				F9F9F65B52A14305F4B6DAD6A47CCF81 /* MZCoreDataBrowserObjectViewController.h in Headers */,
-				BF578DAA33E45C9E9F0E26C7B8576041 /* MZCoreDataBrowserViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C34E4696B1FDF746987A40BF2704929D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,26 +257,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9C23D22605D552D006E0F82AD8F1F70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58123ACA32245676F9BED1BEDF950074 /* MZCoreDataBrowser-umbrella.h in Headers */,
+				D61DF8C006ECA98A95C7DD11D2C27B9E /* MZCoreDataBrowserObjectViewController.h in Headers */,
+				1B091BDC1ED79B468F84F1FE11169FF3 /* MZCoreDataBrowserViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		09EB5CEAE1AADC8BB34292FAC6BDF41F /* MZCoreDataBrowser-MZCoreDataBrowser */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EB064F5477594311CE447FA4E96C6382 /* Build configuration list for PBXNativeTarget "MZCoreDataBrowser-MZCoreDataBrowser" */;
-			buildPhases = (
-				ACCC00D86BCD1D9885DEBFF594FA6EC1 /* Sources */,
-				9E62CAEA1061F70FC788BF849B5B9231 /* Frameworks */,
-				B8AC4513F5E0D7D8AFA0053A112B7567 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MZCoreDataBrowser-MZCoreDataBrowser";
-			productName = "MZCoreDataBrowser-MZCoreDataBrowser";
-			productReference = E938B43802D60B245AA685B61DC4841F /* MZCoreDataBrowser.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		6F699CF6559DDABA2ACBCBEB28FCFA3B /* Pods-MZCoreDataBrowser_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65136F6D260716635809E97BEF80F774 /* Build configuration list for PBXNativeTarget "Pods-MZCoreDataBrowser_Tests" */;
@@ -319,7 +285,7 @@
 			);
 			name = "Pods-MZCoreDataBrowser_Tests";
 			productName = "Pods-MZCoreDataBrowser_Tests";
-			productReference = ACF04075D8DD2761114148C2A88E34C6 /* Pods_MZCoreDataBrowser_Tests.framework */;
+			productReference = 129C2CBDB6B6657F9CD44243FFEF0833 /* Pods_MZCoreDataBrowser_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		91B689D40A80E67656EA4FF95014B535 /* Pods-MZCoreDataBrowser_Example */ = {
@@ -337,26 +303,24 @@
 			);
 			name = "Pods-MZCoreDataBrowser_Example";
 			productName = "Pods-MZCoreDataBrowser_Example";
-			productReference = 1CB48A65387810AC7D37A8C08FCFD827 /* Pods_MZCoreDataBrowser_Example.framework */;
+			productReference = F6A32A4050FB91D5D64C419C69293675 /* Pods_MZCoreDataBrowser_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F369F5741DCC4C060CC0B984373C6B4B /* MZCoreDataBrowser */ = {
+		E8EA8EC757CD8EB764D360F7299A1F44 /* MZCoreDataBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A8B199511766E7858346741D0FDCA83 /* Build configuration list for PBXNativeTarget "MZCoreDataBrowser" */;
+			buildConfigurationList = 3B6931D18B5093566E23E5C6FA1FA0F4 /* Build configuration list for PBXNativeTarget "MZCoreDataBrowser" */;
 			buildPhases = (
-				11857964627F18C063F74C85AEA009FC /* Sources */,
-				62E689DC9B41034695B26E23DB803C1F /* Frameworks */,
-				64F3605188AF1F8521544C562C39C731 /* Resources */,
-				B952C4C6EBD11B858E9CEEF1910085CD /* Headers */,
+				CFEF9392D7C117854AEAED554703004C /* Sources */,
+				B84DBEEC790601B33B771CF83C4A2E39 /* Frameworks */,
+				D9C23D22605D552D006E0F82AD8F1F70 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				046355FEE1AF2DC13C5513DF9C841909 /* PBXTargetDependency */,
 			);
 			name = MZCoreDataBrowser;
 			productName = MZCoreDataBrowser;
-			productReference = E7E870DA35A80E90DF92E66591844627 /* MZCoreDataBrowser.framework */;
+			productReference = 88DA1FDC406C0ABA39CFDB7DE92643B6 /* MZCoreDataBrowser.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -376,59 +340,23 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 36F36EA050F4406163E3CDE1444E802E /* Products */;
+			productRefGroup = 94686978D32C8F4D86C7E54FE87AE215 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F369F5741DCC4C060CC0B984373C6B4B /* MZCoreDataBrowser */,
-				09EB5CEAE1AADC8BB34292FAC6BDF41F /* MZCoreDataBrowser-MZCoreDataBrowser */,
+				E8EA8EC757CD8EB764D360F7299A1F44 /* MZCoreDataBrowser */,
 				91B689D40A80E67656EA4FF95014B535 /* Pods-MZCoreDataBrowser_Example */,
 				6F699CF6559DDABA2ACBCBEB28FCFA3B /* Pods-MZCoreDataBrowser_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		64F3605188AF1F8521544C562C39C731 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5E844D6DD1A0EC35F05012298FDB718 /* MZCoreDataBrowser.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8AC4513F5E0D7D8AFA0053A112B7567 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		11857964627F18C063F74C85AEA009FC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CE0D543C4FAE3BBACC19F2B738276A4 /* MZCoreDataBrowser-dummy.m in Sources */,
-				A9613DE8C7A0660998743EA8C929143E /* MZCoreDataBrowserObjectViewController.m in Sources */,
-				BAAD15B9F7B35EFADD23D3D020A2DD5A /* MZCoreDataBrowserViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2226A19084324662BE974B32B6C437BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A819CB9AC76BDBE378F8FC53F8FB98FF /* Pods-MZCoreDataBrowser_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACCC00D86BCD1D9885DEBFF594FA6EC1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,25 +368,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CFEF9392D7C117854AEAED554703004C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7AF81CCF96D980B0117D6AE98679C6 /* MZCoreDataBrowser-dummy.m in Sources */,
+				762F178EDEA281A4E3285A1C9CE75045 /* MZCoreDataBrowserObjectViewController.m in Sources */,
+				692F94A2E1A6A65CCC446EFE5E2E790A /* MZCoreDataBrowserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		046355FEE1AF2DC13C5513DF9C841909 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "MZCoreDataBrowser-MZCoreDataBrowser";
-			target = 09EB5CEAE1AADC8BB34292FAC6BDF41F /* MZCoreDataBrowser-MZCoreDataBrowser */;
-			targetProxy = 86944071345B6BC0654134F71B703CE9 /* PBXContainerItemProxy */;
-		};
 		12F2CF3A5F79907C91FDD6C1C12091D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MZCoreDataBrowser;
-			target = F369F5741DCC4C060CC0B984373C6B4B /* MZCoreDataBrowser */;
+			target = E8EA8EC757CD8EB764D360F7299A1F44 /* MZCoreDataBrowser */;
 			targetProxy = 80090D29D7AD19820EBED16198E46F05 /* PBXContainerItemProxy */;
 		};
 		FC7ED4430D9C753C1310F35A2F3C5E6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MZCoreDataBrowser;
-			target = F369F5741DCC4C060CC0B984373C6B4B /* MZCoreDataBrowser */;
+			target = E8EA8EC757CD8EB764D360F7299A1F44 /* MZCoreDataBrowser */;
 			targetProxy = 14A902787BB4FB9F6DEE0F7049D5F405 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -591,15 +523,31 @@
 			};
 			name = Debug;
 		};
-		A116CF373854C739FCB94A7B4D9F18CB /* Debug */ = {
+		A2338B8B24D6DA2B2DDFBA762731BFF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A5BF171686F18914B55345597C7D9E9 /* MZCoreDataBrowser.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZCoreDataBrowser/MZCoreDataBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZCoreDataBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZCoreDataBrowser/MZCoreDataBrowser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MZCoreDataBrowser;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -643,7 +591,7 @@
 			};
 			name = Debug;
 		};
-		AF440056F0F45414B898701D673AD228 /* Release */ = {
+		B6DC373BD0DFF7EA26D875AEDE4AC167 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A5BF171686F18914B55345597C7D9E9 /* MZCoreDataBrowser.xcconfig */;
 			buildSettings = {
@@ -702,46 +650,6 @@
 			};
 			name = Release;
 		};
-		D509482F0821A42BD5754E7FE870809E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A5BF171686F18914B55345597C7D9E9 /* MZCoreDataBrowser.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MZCoreDataBrowser/MZCoreDataBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MZCoreDataBrowser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MZCoreDataBrowser/MZCoreDataBrowser.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = MZCoreDataBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FE27DD6DBB0F892985DB012BBD074CD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A5BF171686F18914B55345597C7D9E9 /* MZCoreDataBrowser.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MZCoreDataBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -754,11 +662,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A8B199511766E7858346741D0FDCA83 /* Build configuration list for PBXNativeTarget "MZCoreDataBrowser" */ = {
+		3B6931D18B5093566E23E5C6FA1FA0F4 /* Build configuration list for PBXNativeTarget "MZCoreDataBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D509482F0821A42BD5754E7FE870809E /* Debug */,
-				AF440056F0F45414B898701D673AD228 /* Release */,
+				A2338B8B24D6DA2B2DDFBA762731BFF2 /* Debug */,
+				B6DC373BD0DFF7EA26D875AEDE4AC167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -777,15 +685,6 @@
 			buildConfigurations = (
 				81E7F28A16B2C3650C8C17E4CD05AAE9 /* Debug */,
 				CE50FAE1745742F4D6034A14709B0B5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EB064F5477594311CE447FA4E96C6382 /* Build configuration list for PBXNativeTarget "MZCoreDataBrowser-MZCoreDataBrowser" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A116CF373854C739FCB94A7B4D9F18CB /* Debug */,
-				FE27DD6DBB0F892985DB012BBD074CD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

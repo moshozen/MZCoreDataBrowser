@@ -1,40 +1,23 @@
-#
-# Be sure to run `pod lib lint MZCoreDataBrowser.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "MZCoreDataBrowser"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of MZCoreDataBrowser."
+  s.version          = "1.0.0"
+  s.summary          = "A quick and powerful Core Data browser for developers"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+   `MZCoreDataBrowser` provides a super quick way to visualize and navigate your Core Data objects.
+   It is designed to be used within a debug / developer menu in an application and to be trivially
+   easy to integrate. Simply hand it a MOC, put it onscreen, and you're ready to go.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MZCoreDataBrowser"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/moshozen/MZCoreDataBrowser"
   s.license          = 'MIT'
   s.author           = { "Mat Trudel" => "mat@geeky.net" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MZCoreDataBrowser.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/moshozen/MZCoreDataBrowser.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/mattrudel'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'MZCoreDataBrowser' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/MZCoreDataBrowserViewController.h'
 end

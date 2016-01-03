@@ -1,6 +1,5 @@
 #import <UIKit/UIKit.h>
 
-#import "MZCoreDataBrowserObjectViewController.h"
 #import "MZCoreDataBrowserViewController.h"
 
 FOUNDATION_EXPORT double MZCoreDataBrowserVersionNumber;
