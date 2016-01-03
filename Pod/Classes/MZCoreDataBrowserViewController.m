@@ -1,17 +1,17 @@
 //
-//  MZCoreDataBrowserContextTableViewController.m
+//  MZCoreDataBrowserViewController.m
 //
 //  Created by Mat Trudel on 2014-08-12.
 //  Copyright (c) 2014 Moshozen Inc. All rights reserved.
 //
 
-#import "MZCoreDataBrowserContextTableViewController.h"
+#import "MZCoreDataBrowserViewController.h"
 
 @import CoreData;
 
-#import "MZCoreDataBrowserObjectTableViewController.h"
+#import "MZCoreDataBrowserObjectViewController.h"
 
-@implementation MZCoreDataBrowserContextTableViewController
+@implementation MZCoreDataBrowserViewController
 
 - (instancetype)init
 {
@@ -51,7 +51,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSManagedObject *object = [self objectForIndexPath:indexPath];
-    MZCoreDataBrowserObjectTableViewController *newViewController = [[MZCoreDataBrowserObjectTableViewController alloc] initWithManagedObject:object];
+    MZCoreDataBrowserObjectViewController *newViewController = [[MZCoreDataBrowserObjectViewController alloc] initWithManagedObject:object];
     [self.navigationController pushViewController:newViewController animated:YES];
 }
 

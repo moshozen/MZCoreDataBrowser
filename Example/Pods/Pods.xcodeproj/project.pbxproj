@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		254174C3A47C337CBA8EA528CB586D50 /* MZCoreDataBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A1335EE1B4D2F4969B53FBD3EC92AA /* MZCoreDataBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27E02E193FA9812186580C2A1CB0CC83 /* Pods-MZCoreDataBrowser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CBA7FE3CAB2EB4DA9A46DBA4DDD3354 /* Pods-MZCoreDataBrowser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CE0D543C4FAE3BBACC19F2B738276A4 /* MZCoreDataBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F169DCB5687E3ACCA7975DF94D73B505 /* MZCoreDataBrowser-dummy.m */; };
 		620C064D21C2998B866127B35CAF8D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		65CDB3E61AA11999CBAD8BB7C89CF4E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		6CDE9E0E5CF3B794A18AF564BBF294CD /* MZCoreDataBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F169DCB5687E3ACCA7975DF94D73B505 /* MZCoreDataBrowser-dummy.m */; };
 		70A6BD03DD231DF2FA25C51B44007115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		71D93612F64621CC7B351D0F5D7D948E /* Pods-MZCoreDataBrowser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4C64F114820FCADF55392AD402D9E8 /* Pods-MZCoreDataBrowser_Tests-dummy.m */; };
-		7927EE047F7A6F132C2CCE9FD5698894 /* MZCoreDataBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A1335EE1B4D2F4969B53FBD3EC92AA /* MZCoreDataBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FFF8BDB36E948A4A5AAE9DD14CD6ABA /* MZCoreDataBrowserObjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6777AD290C4E788666DFEE1CA6251F6A /* MZCoreDataBrowserObjectTableViewController.m */; };
 		8162094926D0A7ED265E47A8FA925BB0 /* Pods-MZCoreDataBrowser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA176BA6235CB2C907A43E5E6EDA24B /* Pods-MZCoreDataBrowser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A819CB9AC76BDBE378F8FC53F8FB98FF /* Pods-MZCoreDataBrowser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF598529CEB44275D3908641FEBED396 /* Pods-MZCoreDataBrowser_Example-dummy.m */; };
+		A9613DE8C7A0660998743EA8C929143E /* MZCoreDataBrowserObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B559508F469007EC5679469A84730EE8 /* MZCoreDataBrowserObjectViewController.m */; };
 		B5E844D6DD1A0EC35F05012298FDB718 /* MZCoreDataBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E938B43802D60B245AA685B61DC4841F /* MZCoreDataBrowser.bundle */; };
-		CEDCE27A9692A8770C25363D5677649C /* MZCoreDataBrowserContextTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D93DEE1C843EB43143692858F33107 /* MZCoreDataBrowserContextTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE25F8588CA676E2D4B0C46EAF47098E /* MZCoreDataBrowserObjectTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 177B74D898D094C11970647A0013B825 /* MZCoreDataBrowserObjectTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8DC58DD78FE236DE5979E9E53F66EF1 /* MZCoreDataBrowserContextTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0092E96ADFD44B8AB509C01EEE1FF1C /* MZCoreDataBrowserContextTableViewController.m */; };
+		BAAD15B9F7B35EFADD23D3D020A2DD5A /* MZCoreDataBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296C406F843C1AF7A0473C3ED99D0B17 /* MZCoreDataBrowserViewController.m */; };
+		BF578DAA33E45C9E9F0E26C7B8576041 /* MZCoreDataBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E25C2A971381E03DAFC4FFAD38FE89A /* MZCoreDataBrowserViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9F9F65B52A14305F4B6DAD6A47CCF81 /* MZCoreDataBrowserObjectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE818E17F7C7F6A42203CBADED061841 /* MZCoreDataBrowserObjectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,20 +50,20 @@
 /* Begin PBXFileReference section */
 		0F212AD089184C9A286D33F69A4D5AC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F9171AA93AAEC8F31FB8B828494D26B /* Pods-MZCoreDataBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZCoreDataBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		177B74D898D094C11970647A0013B825 /* MZCoreDataBrowserObjectTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MZCoreDataBrowserObjectTableViewController.h; sourceTree = "<group>"; };
 		18D5294BCA43568D84AEE20C6412701E /* Pods-MZCoreDataBrowser_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZCoreDataBrowser_Example-resources.sh"; sourceTree = "<group>"; };
 		1CB48A65387810AC7D37A8C08FCFD827 /* Pods_MZCoreDataBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZCoreDataBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C66FBB6F42139B44AED04904C3309A /* Pods-MZCoreDataBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZCoreDataBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		22CC720FD90B1DACFC3CF38CACA301B4 /* Pods-MZCoreDataBrowser_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZCoreDataBrowser_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		296C406F843C1AF7A0473C3ED99D0B17 /* MZCoreDataBrowserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MZCoreDataBrowserViewController.m; sourceTree = "<group>"; };
 		2FA176BA6235CB2C907A43E5E6EDA24B /* Pods-MZCoreDataBrowser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZCoreDataBrowser_Example-umbrella.h"; sourceTree = "<group>"; };
 		3CB2E37C796F82727A0142776321B476 /* Pods-MZCoreDataBrowser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZCoreDataBrowser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E25C2A971381E03DAFC4FFAD38FE89A /* MZCoreDataBrowserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MZCoreDataBrowserViewController.h; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4E7684BA3152941E13D53765EBA6D90A /* Pods-MZCoreDataBrowser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MZCoreDataBrowser_Example.modulemap"; sourceTree = "<group>"; };
 		5CBA7FE3CAB2EB4DA9A46DBA4DDD3354 /* Pods-MZCoreDataBrowser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZCoreDataBrowser_Tests-umbrella.h"; sourceTree = "<group>"; };
 		60EC5C35D45DB360699EF9D23FFB8233 /* Pods-MZCoreDataBrowser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZCoreDataBrowser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		61C2E8BB2A0F7384DCEA2EA597B3AB4B /* Pods-MZCoreDataBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZCoreDataBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		66A1335EE1B4D2F4969B53FBD3EC92AA /* MZCoreDataBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZCoreDataBrowser-umbrella.h"; sourceTree = "<group>"; };
-		6777AD290C4E788666DFEE1CA6251F6A /* MZCoreDataBrowserObjectTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MZCoreDataBrowserObjectTableViewController.m; sourceTree = "<group>"; };
 		7A5BF171686F18914B55345597C7D9E9 /* MZCoreDataBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZCoreDataBrowser.xcconfig; sourceTree = "<group>"; };
 		833D90C408A2B7DB8FF8CD02534ED869 /* Pods-MZCoreDataBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZCoreDataBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9AF5B114FEA728B03200707666B64B63 /* Pods-MZCoreDataBrowser_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZCoreDataBrowser_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -72,14 +72,14 @@
 		AC2A5293378A23B59F1B925DA8E192DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACF04075D8DD2761114148C2A88E34C6 /* Pods_MZCoreDataBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZCoreDataBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4C64F114820FCADF55392AD402D9E8 /* Pods-MZCoreDataBrowser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZCoreDataBrowser_Tests-dummy.m"; sourceTree = "<group>"; };
+		B559508F469007EC5679469A84730EE8 /* MZCoreDataBrowserObjectViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MZCoreDataBrowserObjectViewController.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF68B21E0C55965E3F1002A1CFCA9642 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2D93DEE1C843EB43143692858F33107 /* MZCoreDataBrowserContextTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MZCoreDataBrowserContextTableViewController.h; sourceTree = "<group>"; };
 		CDC41AB69AFA180E72A0006677866FF1 /* MZCoreDataBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZCoreDataBrowser-prefix.pch"; sourceTree = "<group>"; };
+		CE818E17F7C7F6A42203CBADED061841 /* MZCoreDataBrowserObjectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MZCoreDataBrowserObjectViewController.h; sourceTree = "<group>"; };
 		D63F50399F808191A9CA294AA535C43A /* Pods-MZCoreDataBrowser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MZCoreDataBrowser_Tests.modulemap"; sourceTree = "<group>"; };
 		DF04F3565ABABBAE0EFFE82EEB01B729 /* Pods-MZCoreDataBrowser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZCoreDataBrowser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DF598529CEB44275D3908641FEBED396 /* Pods-MZCoreDataBrowser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZCoreDataBrowser_Example-dummy.m"; sourceTree = "<group>"; };
-		E0092E96ADFD44B8AB509C01EEE1FF1C /* MZCoreDataBrowserContextTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MZCoreDataBrowserContextTableViewController.m; sourceTree = "<group>"; };
 		E6D23640C83547DF7F03F77A7F4684DE /* Pods-MZCoreDataBrowser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZCoreDataBrowser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E7E870DA35A80E90DF92E66591844627 /* MZCoreDataBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZCoreDataBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E938B43802D60B245AA685B61DC4841F /* MZCoreDataBrowser.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZCoreDataBrowser.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,7 +162,7 @@
 		6B112890FAD404B3EE95E3E44CFD03CC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B7C08A6382E5A89238F12F0A75BAE714 /* Classes */,
+				DEA752938D4CD46F4716347751057840 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -220,17 +220,6 @@
 			path = "Example/Pods/Target Support Files/MZCoreDataBrowser";
 			sourceTree = "<group>";
 		};
-		B7C08A6382E5A89238F12F0A75BAE714 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C2D93DEE1C843EB43143692858F33107 /* MZCoreDataBrowserContextTableViewController.h */,
-				E0092E96ADFD44B8AB509C01EEE1FF1C /* MZCoreDataBrowserContextTableViewController.m */,
-				177B74D898D094C11970647A0013B825 /* MZCoreDataBrowserObjectTableViewController.h */,
-				6777AD290C4E788666DFEE1CA6251F6A /* MZCoreDataBrowserObjectTableViewController.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,16 +244,27 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		DEA752938D4CD46F4716347751057840 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE818E17F7C7F6A42203CBADED061841 /* MZCoreDataBrowserObjectViewController.h */,
+				B559508F469007EC5679469A84730EE8 /* MZCoreDataBrowserObjectViewController.m */,
+				3E25C2A971381E03DAFC4FFAD38FE89A /* MZCoreDataBrowserViewController.h */,
+				296C406F843C1AF7A0473C3ED99D0B17 /* MZCoreDataBrowserViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AE8C36402256DBC53E1CF83F86DB593C /* Headers */ = {
+		B952C4C6EBD11B858E9CEEF1910085CD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7927EE047F7A6F132C2CCE9FD5698894 /* MZCoreDataBrowser-umbrella.h in Headers */,
-				CEDCE27A9692A8770C25363D5677649C /* MZCoreDataBrowserContextTableViewController.h in Headers */,
-				DE25F8588CA676E2D4B0C46EAF47098E /* MZCoreDataBrowserObjectTableViewController.h in Headers */,
+				254174C3A47C337CBA8EA528CB586D50 /* MZCoreDataBrowser-umbrella.h in Headers */,
+				F9F9F65B52A14305F4B6DAD6A47CCF81 /* MZCoreDataBrowserObjectViewController.h in Headers */,
+				BF578DAA33E45C9E9F0E26C7B8576041 /* MZCoreDataBrowserViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,10 +344,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A8B199511766E7858346741D0FDCA83 /* Build configuration list for PBXNativeTarget "MZCoreDataBrowser" */;
 			buildPhases = (
-				E971826461688E2A257988F171389F5F /* Sources */,
+				11857964627F18C063F74C85AEA009FC /* Sources */,
 				62E689DC9B41034695B26E23DB803C1F /* Frameworks */,
 				64F3605188AF1F8521544C562C39C731 /* Resources */,
-				AE8C36402256DBC53E1CF83F86DB593C /* Headers */,
+				B952C4C6EBD11B858E9CEEF1910085CD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -407,6 +407,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		11857964627F18C063F74C85AEA009FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE0D543C4FAE3BBACC19F2B738276A4 /* MZCoreDataBrowser-dummy.m in Sources */,
+				A9613DE8C7A0660998743EA8C929143E /* MZCoreDataBrowserObjectViewController.m in Sources */,
+				BAAD15B9F7B35EFADD23D3D020A2DD5A /* MZCoreDataBrowserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2226A19084324662BE974B32B6C437BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,16 +437,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				71D93612F64621CC7B351D0F5D7D948E /* Pods-MZCoreDataBrowser_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E971826461688E2A257988F171389F5F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6CDE9E0E5CF3B794A18AF564BBF294CD /* MZCoreDataBrowser-dummy.m in Sources */,
-				F8DC58DD78FE236DE5979E9E53F66EF1 /* MZCoreDataBrowserContextTableViewController.m in Sources */,
-				7FFF8BDB36E948A4A5AAE9DD14CD6ABA /* MZCoreDataBrowserObjectTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +464,69 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		208F1E8DFF92CFD4996E8A098E491044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C66FBB6F42139B44AED04904C3309A /* Pods-MZCoreDataBrowser_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Tests/Pods-MZCoreDataBrowser_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MZCoreDataBrowser_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30F8E3B5CD92435B2C10ED1C5EB5F23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9171AA93AAEC8F31FB8B828494D26B /* Pods-MZCoreDataBrowser_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Tests/Pods-MZCoreDataBrowser_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MZCoreDataBrowser_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -491,16 +553,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		05E96D38E6C2BA0DB600BC0AFD49BBA1 /* Debug */ = {
+		81E7F28A16B2C3650C8C17E4CD05AAE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F9171AA93AAEC8F31FB8B828494D26B /* Pods-MZCoreDataBrowser_Tests.debug.xcconfig */;
+			baseConfigurationReference = 61C2E8BB2A0F7384DCEA2EA597B3AB4B /* Pods-MZCoreDataBrowser_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -509,18 +571,18 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Tests/Pods-MZCoreDataBrowser_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Example/Pods-MZCoreDataBrowser_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MZCoreDataBrowser_Tests;
+				PRODUCT_NAME = Pods_MZCoreDataBrowser_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -529,7 +591,19 @@
 			};
 			name = Debug;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		A116CF373854C739FCB94A7B4D9F18CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5BF171686F18914B55345597C7D9E9 /* MZCoreDataBrowser.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MZCoreDataBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -562,14 +636,42 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		393D1E207BE958641B787F13E4D75D45 /* Release */ = {
+		AF440056F0F45414B898701D673AD228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5BF171686F18914B55345597C7D9E9 /* MZCoreDataBrowser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZCoreDataBrowser/MZCoreDataBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZCoreDataBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZCoreDataBrowser/MZCoreDataBrowser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = MZCoreDataBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE50FAE1745742F4D6034A14709B0B5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 833D90C408A2B7DB8FF8CD02534ED869 /* Pods-MZCoreDataBrowser_Example.release.xcconfig */;
 			buildSettings = {
@@ -582,7 +684,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Example/Pods-MZCoreDataBrowser_Example.modulemap";
@@ -600,69 +702,7 @@
 			};
 			name = Release;
 		};
-		4EE2B087A2724D5DA6532B9A84B18A83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21C66FBB6F42139B44AED04904C3309A /* Pods-MZCoreDataBrowser_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Tests/Pods-MZCoreDataBrowser_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MZCoreDataBrowser_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5DEBBCA73D1855A35429989C5B8111CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C2E8BB2A0F7384DCEA2EA597B3AB4B /* Pods-MZCoreDataBrowser_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MZCoreDataBrowser_Example/Pods-MZCoreDataBrowser_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MZCoreDataBrowser_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		772FAD5A8BCB2E686F484C5F60A3AC77 /* Debug */ = {
+		D509482F0821A42BD5754E7FE870809E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A5BF171686F18914B55345597C7D9E9 /* MZCoreDataBrowser.xcconfig */;
 			buildSettings = {
@@ -676,7 +716,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MZCoreDataBrowser/MZCoreDataBrowser-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MZCoreDataBrowser/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MZCoreDataBrowser/MZCoreDataBrowser.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -689,46 +729,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		A116CF373854C739FCB94A7B4D9F18CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A5BF171686F18914B55345597C7D9E9 /* MZCoreDataBrowser.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MZCoreDataBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		DE564EF9798BA1C0F72877E0C633AF79 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A5BF171686F18914B55345597C7D9E9 /* MZCoreDataBrowser.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MZCoreDataBrowser/MZCoreDataBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MZCoreDataBrowser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MZCoreDataBrowser/MZCoreDataBrowser.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = MZCoreDataBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		FE27DD6DBB0F892985DB012BBD074CD6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -748,8 +748,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -757,8 +757,8 @@
 		4A8B199511766E7858346741D0FDCA83 /* Build configuration list for PBXNativeTarget "MZCoreDataBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				772FAD5A8BCB2E686F484C5F60A3AC77 /* Debug */,
-				DE564EF9798BA1C0F72877E0C633AF79 /* Release */,
+				D509482F0821A42BD5754E7FE870809E /* Debug */,
+				AF440056F0F45414B898701D673AD228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -766,8 +766,8 @@
 		65136F6D260716635809E97BEF80F774 /* Build configuration list for PBXNativeTarget "Pods-MZCoreDataBrowser_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05E96D38E6C2BA0DB600BC0AFD49BBA1 /* Debug */,
-				4EE2B087A2724D5DA6532B9A84B18A83 /* Release */,
+				30F8E3B5CD92435B2C10ED1C5EB5F23D /* Debug */,
+				208F1E8DFF92CFD4996E8A098E491044 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -775,8 +775,8 @@
 		A74F32A57083BEE423A646D798F34794 /* Build configuration list for PBXNativeTarget "Pods-MZCoreDataBrowser_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DEBBCA73D1855A35429989C5B8111CC /* Debug */,
-				393D1E207BE958641B787F13E4D75D45 /* Release */,
+				81E7F28A16B2C3650C8C17E4CD05AAE9 /* Debug */,
+				CE50FAE1745742F4D6034A14709B0B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

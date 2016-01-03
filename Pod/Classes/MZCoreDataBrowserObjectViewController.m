@@ -1,19 +1,19 @@
 //
-//  MZCoreDataBrowserObjectTableViewController.m
+//  MZCoreDataBrowserObjectViewController.m
 //
 //  Created by Mat Trudel on 2014-08-11.
 //  Copyright (c) 2014 Moshozen Inc. All rights reserved.
 //
 
-#import "MZCoreDataBrowserObjectTableViewController.h"
+#import "MZCoreDataBrowserObjectViewController.h"
 
 @import CoreData;
 
-@interface MZCoreDataBrowserObjectTableViewController ()
+@interface MZCoreDataBrowserObjectViewController ()
 @property NSManagedObject *object;
 @end
 
-@implementation MZCoreDataBrowserObjectTableViewController
+@implementation MZCoreDataBrowserObjectViewController
 
 - (instancetype)initWithManagedObject:(NSManagedObject *)object
 {
@@ -80,7 +80,7 @@
 {
     if (indexPath.section > 0) {
         NSManagedObject *selectedObject = [self objectsForRelationship:self.relationshipNames[indexPath.section - 1]][indexPath.row];
-        MZCoreDataBrowserObjectTableViewController *newViewController = [[MZCoreDataBrowserObjectTableViewController alloc] initWithManagedObject:selectedObject];
+        MZCoreDataBrowserObjectViewController *newViewController = [[MZCoreDataBrowserObjectViewController alloc] initWithManagedObject:selectedObject];
         [self.navigationController pushViewController:newViewController animated:YES];
     }
 }

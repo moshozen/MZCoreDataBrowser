@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 
-#import "MZCoreDataBrowserContextTableViewController.h"
-#import "MZCoreDataBrowserObjectTableViewController.h"
+#import "MZCoreDataBrowserObjectViewController.h"
+#import "MZCoreDataBrowserViewController.h"
 
 FOUNDATION_EXPORT double MZCoreDataBrowserVersionNumber;
 FOUNDATION_EXPORT const unsigned char MZCoreDataBrowserVersionString[];

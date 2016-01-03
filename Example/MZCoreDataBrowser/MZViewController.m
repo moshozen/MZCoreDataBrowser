@@ -10,7 +10,7 @@
 
 @import CoreData;
 
-#import <MZCoreDataBrowser/MZCoreDataBrowserContextTableViewController.h>
+#import <MZCoreDataBrowser/MZCoreDataBrowserViewController.h>
 
 #import "Artist.h"
 #import "Album.h"
@@ -21,7 +21,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"showBrowser"]) {
-        MZCoreDataBrowserContextTableViewController *browser = segue.destinationViewController;
+        MZCoreDataBrowserViewController *browser = segue.destinationViewController;
         browser.context = [self managedObjectContext];
     }
 }

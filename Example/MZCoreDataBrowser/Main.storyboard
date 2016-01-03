@@ -5,13 +5,13 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Core Data Browser Context Table View Controller-->
+        <!--Core Data Browser View Controller-->
         <scene sceneID="VSn-QP-3JB">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AUZ-kT-rZh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="OYL-LQ-zTN" customClass="MZCoreDataBrowserContextTableViewController" sceneMemberID="viewController">
+                <viewController id="OYL-LQ-zTN" customClass="MZCoreDataBrowserViewController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Id7-0l-rMq"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AUZ-kT-rZh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1940" y="433"/>
         </scene>
