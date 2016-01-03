@@ -59,7 +59,12 @@
 
 - (NSArray<NSEntityDescription *> *)entities
 {
-    return self.context.persistentStoreCoordinator.managedObjectModel.entities;
+    NSArray<NSEntityDescription *> *entities = self.context.persistentStoreCoordinator.managedObjectModel.entities;
+    if (self.groupByRootEntity) {
+        return [entities filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"superentity == nil"]];
+    } else {
+        return entities;
+    }
 }
 
 - (NSArray<NSManagedObject *> *)objectsForEntity:(NSEntityDescription *)entity

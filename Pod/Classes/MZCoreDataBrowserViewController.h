@@ -11,4 +11,5 @@
 
 @interface MZCoreDataBrowserViewController : UITableViewController
 @property NSManagedObjectContext *context;
+@property BOOL groupByRootEntity;
 @end
