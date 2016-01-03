@@ -13,11 +13,6 @@
 
 @implementation MZCoreDataBrowserViewController
 
-- (instancetype)init
-{
-    return self = [super initWithStyle:UITableViewStylePlain];
-}
-
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
