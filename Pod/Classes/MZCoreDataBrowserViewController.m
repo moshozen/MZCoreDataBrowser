@@ -13,6 +13,31 @@
 
 @implementation MZCoreDataBrowserViewController
 
+#pragma mark - Initializers
+
+- (instancetype)initWithStyle:(UITableViewStyle)style
+{
+    return [super initWithStyle:style];
+}
+
+- (instancetype)initWithNibName:(nullable NSString *)nibNameOrNil bundle:(nullable NSBundle *)nibBundleOrNil
+{
+    return [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+}
+
+- (nullable instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    return [super initWithCoder:aDecoder];
+}
+
+- (instancetype)initWithManagedObjectContext:(NSManagedObjectContext *)context
+{
+    if (self = [super initWithStyle:UITableViewStylePlain]) {
+        self.context = context;
+    }
+    return self;
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
