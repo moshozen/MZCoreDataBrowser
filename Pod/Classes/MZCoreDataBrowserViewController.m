@@ -38,6 +38,27 @@
     return self;
 }
 
+#pragma mark - View lifecycle
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    if (![self.parentViewController isKindOfClass:[UINavigationController class]]) {
+        [NSException raise:NSGenericException format:@"MZCoreDataBrowserViewController must be presented inside a UINavigationController"];
+    } else {
+        if ([self.navigationController.viewControllers isEqualToArray:@[self]]) {
+            self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(donePressed:)];
+        }
+    }
+}
+
+#pragma mark - Actions
+
+- (IBAction)donePressed:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
