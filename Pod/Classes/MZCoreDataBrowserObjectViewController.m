@@ -55,7 +55,7 @@
         }
         id object = [self.object valueForKey:self.attributeNames[indexPath.row]];
         if ([object isKindOfClass:[NSArray class]] || [object isKindOfClass:[NSSet class]] || [object isKindOfClass:[NSDictionary class]]) {
-            cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ (%ld elements)", NSStringFromClass([object class]), [object count]];
+            cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ (%ld elements)", NSStringFromClass([object class]), (unsigned long)[object count]];
         } else {
             cell.detailTextLabel.text = [object description];
         }
