@@ -1,5 +1,5 @@
 PODS:
-  - MZCoreDataBrowser (1.0.0)
+  - MZCoreDataBrowser (1.1.0)
 
 DEPENDENCIES:
   - MZCoreDataBrowser (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MZCoreDataBrowser: b40a1894f24459d975bca1afdae671275a8107af
+  MZCoreDataBrowser: e162f40ea0b80fa197206df0d40110c969339787
 
 COCOAPODS: 0.39.0
