@@ -54,8 +54,8 @@
             cell.textLabel.text = self.attributeNames[indexPath.row];
         }
         id object = [self.object valueForKey:self.attributeNames[indexPath.row]];
-        if ([object isKindOfClass:[NSArray class]]) {
-            cell.detailTextLabel.text = [object componentsJoinedByString:@", "];
+        if ([object isKindOfClass:[NSArray class]] || [object isKindOfClass:[NSSet class]] || [object isKindOfClass:[NSDictionary class]]) {
+            cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ (%ld elements)", NSStringFromClass([object class]), [object count]];
         } else {
             cell.detailTextLabel.text = [object description];
         }
@@ -86,7 +86,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.section > 0) {
+    if (indexPath.section == 0) {
+        id object = [self.object valueForKey:self.attributeNames[indexPath.row]];
+        [[[UIAlertView alloc] initWithTitle:self.attributeNames[indexPath.row] message:[object debugDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
+    } else {
         NSManagedObject *selectedObject = [self objectsForRelationship:self.relationshipNames[indexPath.section - 1]][indexPath.row];
         MZCoreDataBrowserObjectViewController *newViewController = [[MZCoreDataBrowserObjectViewController alloc] initWithManagedObject:selectedObject];
         [self.navigationController pushViewController:newViewController animated:YES];
